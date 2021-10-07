@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    
+}
+header h1 a{
+    align-items: center;
+font-size: 40px;
+font-weight: lighter;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-weight: normal;
+text-decoration: none;
+}
+header nav ul{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul a{
+    padding: 15px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+   
+    .biography {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+body {
+    background-color: rgb(96, 176, 190);
+   
+}
+.hero {
+    display: flex;
+background-size: cover;
+background-image: url("../images/butterfly.JPG");
+background-repeat: no-repeat;
+height: 1200px;
+
+flex: 12%;
+
+position: relative;
+}      
+.hero-text{
+    position: absolute;
+    color: greenyellow;
+    bottom: 8px;
+    right: 16px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+.aboutmebio { 
+    display: flex;
+
+    padding: 30px;
+
+}
+.aboutmebio h2 {
+    font-size: 50px;
+    border-right: solid 5px blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+
+}
+.aboutmebio p {
+    padding: 20px 20px 20px 0;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    font-size: larger;
+
+}
+.mywebsites{
+    display: flex;
+  
+
+    
+}
+.mywebsites h2 {
+    padding: 30px;
+    font-size: 50px;
+    border-right:  solid 5px blue ;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    height: 93%;
+}
+.website1 h3{
+    
+    font-size: 40px;
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    
+ 
+  
+}
+.website1{
+   background-image: url("../images/hero-bg.jpeg.jpeg");
+   background-size: cover;
+   width: 1300px;
+   height: 400px;
+    margin-left: 200px;
+     border: 5px solid yellow;
+     position: relative;
+  
+     
+}
+.website1:hover{
+    opacity: 0.5;
+}
+.websites2-3{
+    display: flex;
+    flex-grow: 2;
+    padding: 15px;
+    justify-content: space-between;
+    margin-left: 200px;
+
+    
+}
+
+.website2 {
+    background-image: url("../images/istockphoto-1220007349-612x612.jpg");
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: red solid 5px;
+    position: relative;
+   margin-right: 5px;
+   
+
+}
+.website2:hover{
+    opacity: 0.5;
+}
+.website2 h4{
+    background-color: red;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    text-decoration: none;
+}
+
+.website3 {
+    background-image: url("../images/download.png");
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: grey solid 5px;
+    text-decoration: none;
+}
+.website3 h4 {
+    background-color: grey;
+    color: orange;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    bottom: 5px;
+    text-decoration: none;
+}
+.website3:hover{
+    opacity: 0.5;
+}
+.websites4-5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    padding: 15px;
+    justify-content: space-around;
+    margin-left: 200px;
+
+
+}
+.website4{
+    background-image: url("../images/Strong-Password-Generator.webp");
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border:aquamarine solid 5px;
+}
+.website4 h4 {
+    background-color: aquamarine;
+    color: orange;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    bottom: 5px;
+
+}
+.website4:hover{
+    opacity: 0.5;
+}
+.website5 h4 {
+    background-color: white;
+    color: purple;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    bottom: 5px;
+    text-decoration: none;
+}
+.website5:hover{
+    opacity: 0.5;
+}
+.website5 {
+    background-image: url("../images/unnamed.png");
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border:white solid 5px;
+    background-position: right;
+}
+.contact {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact address{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.contact a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bold;
+    
+
+}
+.contact h2 {
+  
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    border-right:  solid 5px blue ;
+    overflow: auto;
+    padding-right: 20px;
+    margin-left: 10px;
+}
